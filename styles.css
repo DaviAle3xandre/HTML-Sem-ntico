@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h2 {
+    font-size: 2rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  main section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  section p, section ul {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  section ul li {
+    margin: 5px 0;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    font-size: 1rem;
+  }
+  
+  article a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  aside h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  aside ul li {
+    margin: 10px 0;
+  }
+  
+  aside ul li a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  aside ul li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  figure {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer div {
+    margin-bottom: 20px;
+  }
+
+  mark {
+    background-color: #ff0;
+    color: #333;
+    padding: 0 5px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header h2 {
+      font-size: 1.5rem;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  
+    aside {
+      margin-top: 20px;
+    }
+  
+    figure {
+      margin: 20px auto;
+    }
+  }
+  
